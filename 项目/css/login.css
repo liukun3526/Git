@@ -1,0 +1,147 @@
+*{margin:0;padding: 0}
+a{text-decoration:none;color:#666;}
+li{list-style:none;}
+i,strong,em,b{font-style:normal}
+body{font:12px "微软雅黑";color:#555;}
+img{border:0;}
+input{border: none;outline: none;}
+
+.login_bg{
+	width: 100%;
+	height: 601px;
+    overflow: hidden;
+    background: url(../img/login/login_bg.jpg) no-repeat center top;
+}
+.login_border{
+	height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1180px;
+}
+.login_left{
+	float: left;
+    height: 601px;
+    overflow: hidden;
+    position: relative;
+    width: 728px;
+}
+.login_right{
+	float: left;
+    height: 506px;
+    overflow: hidden;
+    position: relative;
+    width: 403px;
+}
+.login_right h3{
+	width: 90px;
+	height: 44px;
+	float: left;
+	margin: 85px 0 0 36px;
+	font-size: 17px;
+	line-height: 44px;
+	color: #000;
+}
+.login_right h2{
+	text-align: right;
+	float: right;
+	width: 103px;
+	height: 44px;
+	font-size: 12px;
+	line-height: 44px;
+	margin-top: 85px;
+	color: #666666;
+}
+.log_box{
+	width: 368px;
+	height: 380px;
+	background:  url(../img/login/login_right.jpg) no-repeat 60px 260px  #fcede9;
+	float: right;
+}
+.yours{
+	width: 284px;
+	height: 58px;
+	margin: 46px 0 0 42px;
+}
+.msg_warning{
+	text-align: left;
+	font-size: 12px;
+	line-height: 23px;
+	color: #FF8A81;
+	margin-left: 0;
+}
+.yours_name,.yours_password{
+	width: 284px;
+	height: 30px;
+	padding: 2px 0 2px 5px;
+}
+.yours2{
+	width: 284px;
+	height: 58px;
+	margin-left: 42px;
+}
+.check{
+	width: 284px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 12px;
+	margin: 4px 0 4px 42px;
+}
+.check input{
+	float: left;
+}
+.check a{
+	display: block;
+	float: right;
+}
+.check a:hover{
+	color: #FF9B94;
+}
+.login_btn input{
+	width: 284px;
+	height: 33px;
+	margin: 15px 0 65px 42px;
+	background: #ff8a81;
+}
+.login_btn input:hover{
+	background: #FF9B94;
+}
+.account{
+	width: 284px;
+	height: 46px;
+	margin-left: 42px;
+}
+.account a{
+	display: block;
+	float: left;
+	width: 46px;
+	height: 46px;
+	margin: 0 10px;
+}
+.account_1{
+	background: url(../img/login/qq.jpg) no-repeat left top;
+}
+.account_1:hover{
+	background: url(../img/login/qq.jpg)no-repeat right top;
+}
+.account_2{
+	background: url(../img/login/weixin.jpg) no-repeat left top;
+}
+.account_2:hover{
+	background: url(../img/login/weixin.jpg)no-repeat right top;
+}
+.account_3{
+	background: url(../img/login/sina.jpg) no-repeat left top;
+}
+.account_3:hover{
+	background: url(../img/login/sina.jpg)no-repeat right top;
+}
+.account_4{
+	background: url(../img/login/zhifubaon.jpg) no-repeat left top;
+}
+.account_4:hover{
+	background: url(../img/login/zhifubaon.jpg)no-repeat right top;
+}
+.msg_warning{
+	display: none;
+}

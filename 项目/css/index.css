@@ -1,0 +1,540 @@
+*{margin:0;padding: 0}
+a{text-decoration:none;color:#666;}
+li{list-style:none;}
+i,strong,em,b{font-style:normal}
+body{font:12px "微软雅黑";color:#555;}
+img{border:0;}
+
+/*轮播图样式*/
+.bannerbg{
+	width: 1263px;
+	height:600px;
+	margin:0 auto; 
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+}
+.banner ul{
+	width: 7578px;
+	height:603px;
+	position: absolute;
+	z-index: 1;
+} 
+.bannerbg .banner li{
+	float:left;
+}
+.bannerbg ol{
+	position: absolute;
+	bottom:28px;
+	left:575px;
+	z-index: 2;
+}
+ol li{
+	width: 14px;
+	height:14px;
+	float: left;
+	margin-right:9px;
+	border-radius:100%;
+	cursor: pointer;
+	display: inline;
+	background: url(../img/index/index_banner_btn.png)no-repeat left top;
+}
+.active{
+	background:url(../img/index/index_banner_btn.png) right top;
+}
+	
+/*挑选戒指部分样式	*/
+.pickRing{ 
+	background: #ffffff;
+	width: 100%;
+}
+#pickRing{ 
+	width: 1180px;
+	height:444px;
+	margin: 0 auto;
+	margin-top: 55px;
+}
+#pickRing_left{ 
+	float: left;
+	background: #f7f7f7; 
+	width: 580px;
+	height: 444px;
+} 
+#pickRing_left h2{ 
+	text-align: center; 
+	font-size: 26px;
+	padding: 45px 0 27px;
+}
+#pickRing_carousel{
+	width: 352px; 
+	height: 190px;
+	margin: 24px auto 0;
+	position: relative;
+	z-index: 0;
+}
+#pickRing_carousel div{
+	width: 352px; 
+	height: 190px; 
+	position: absolute; 
+	left: 0;top: 0;
+}
+#pickRing_carousel_1{ 
+	display: none; 
+	background: url(../img/index/index_diy_1.jpg) no-repeat center; 
+	z-index: 1;
+}
+#pickRing_carousel_2{ 
+	display: none; 
+	background: url(../img/index/index_diy_2.jpg) no-repeat center;
+	z-index: 1;
+}
+#pickRing_carousel_3{ 
+	display: none; 
+	background: url(../img/index/index_diy_3.jpg) no-repeat center; 
+	z-index: 1;
+}
+
+#pickRing_left_a1{ 
+	width: 204px; 
+	height: 34px; 
+	line-height: 34px; 
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	background: #F6827A;
+	font-size:12px; 
+	color: #fff;
+	text-align: center;
+}
+#pickRing_left_a2{ 
+	width: 204px; 
+	height: 34px; 
+	line-height: 34px; 
+	display: block;
+	margin: 0 auto;
+	background: #F6827A;
+	font-size:12px; 
+	color: #fff;
+	text-align: center;
+}
+#pickRing_right{ 
+	float: right; 
+	width: 578px; 
+	height: 442px;
+}
+
+.seriesProduct{ 
+	background: #fff; 
+	width: 100%; 
+}
+#seriesProduct{ 
+	width: 1180px; 
+	margin: 55px auto 0;
+	height: 830px;
+	overflow: hidden;
+}
+#seriesProduct h2{ 
+	color: #000;
+	font-size: 24px;
+	text-align: center;
+	font-weight: normal;
+	margin: 0;
+	letter-spacing: 2px;
+}
+#seriesProduct_list { 
+	width: 855px; 
+	background: #feb8ae; 
+	height: 37px; 
+	text-align: center;
+	padding-left: 325px;
+	margin-top: 45px;
+}
+#seriesProduct_list em{
+	float:left;
+	display: inline-block; 
+	width: 106px;
+	line-height: 37px;
+	height: 37px;
+	font-size: 12px;
+}
+#seriesProduct .seriesProduct_div {
+	float: left; 
+	display: none; 
+	margin-top: 20px;
+	width: 1180px;
+	height: 690px;
+}
+#seriesProduct .seriesProduct_div .seriesProduct_divL{
+	float: left;
+	width: 700px;
+	height: auto;
+}
+#seriesProduct .seriesProduct_div .seriesProduct_divL .seriesProduct_div2{
+	margin-top: 5px;
+}
+#seriesProduct .seriesProduct_div .seriesProduct_div3{
+	width: 464px;
+	float: right;
+}
+
+
+.icon{
+	width: 100%;
+	background: #f5f5f5; 
+	overflow: hidden;
+}
+#icon{ 
+	text-align: center; 
+	padding: 50px 0 ;
+}
+#icon a{
+	display: inline-block;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #b7b7b7;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+#icon a i{
+	background-position: 0 0;
+	width: 104px;
+	display: block;
+	background: url(../img/index/index_shape.jpg) no-repeat;
+	height: 49px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+#icon #icon2 i{
+	background-position-x: -104px;
+}
+#icon #icon3 i{
+	background-position-x: -208px;
+	width: 98px;
+}
+#icon #icon4 i{
+	background-position-x: -306px;
+	width: 91px;
+}
+#icon #icon5 i{
+	background-position-x: -397px;
+	width: 92px;
+}
+#icon #icon6 i{
+	background-position-x: -489px;
+	width: 105px;
+}
+#icon #icon7 i{
+	background-position-x: -594px;
+	width: 86px;
+}
+#icon #icon8 i{
+	background-position-x: -680px;
+	width: 91px;
+}
+#icon #icon9 i{
+	background-position-x: -771px;
+	width: 109px;
+}
+#icon #icon10 i{
+	background-position-x: -880px;
+	width: 100px;
+}
+#icon #icon1 i:hover,#icon #icon2 i:hover, #icon #icon3 i:hover ,#icon #icon4 i:hover,#icon #icon5 i:hover,#icon #icon6 i:hover,#icon #icon7 i:hover,#icon #icon8 i:hover,#icon #icon9 i:hover, #icon #icon10 i:hover{
+	background-position-y: -49px;
+}
+
+.ringShow{
+	background: #fff;
+	width: 1263px;
+	overflow: hidden;
+}
+#ringShow{
+	margin: 55px auto 0;
+	width: 1180px;
+}
+#ringShow h2{
+	color: #000;
+	font-size: 24px;
+	text-align: center;
+	font-weight: normal;
+	margin: 0;
+	letter-spacing: 2px;
+}
+#ringShow h2 i{
+	background: url(../img/index/index_and.jpg) center no-repeat;
+	display: inline-block;
+	width: 21px;
+	height: 19px;
+	vertical-align: middle;
+	padding: 0 6px;
+}
+#ringShow #ringShow_list{
+	position: relative;
+	z-index: 0;
+	width: 1180px;
+	margin: 45px auto 0;
+}
+#ringShow #ringShow_list #ringShow_1{
+	width: 1096px;
+	overflow: hidden;
+	height: 193px;
+	position:relative;
+	z-index: 0;
+	margin: 0 auto;
+}
+#ringShow #ringShow_list #ringShow_1 ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2200px;
+	margin: 0;
+	padding: 0;
+}
+#ringShow #ringShow_list #ringShow_1 ul li{
+	width: 240px;
+	height: 193px;
+	float: left;
+	padding: 0 17px;
+	margin-top: 0;
+}
+#ringShow #ringShow_2{
+	width: 37px;
+	height: 51px;
+	display: block;
+	position: absolute;
+	top: 16%;
+	background: url(http://img.zbird.cn/ww3/160804newindex/icon_prev.jpg) no-repeat;
+}
+#ringShow #ringShow_2{
+	left: -35px;
+}
+#ringShow #ringShow_2{
+	background-position: -37px 0;
+}
+#ringShow #ringShow_3{
+	width: 37px;
+	height: 51px;
+	display: block;
+	position: absolute;
+	right: -35px;
+	top: 16%;
+	background: url(../img/index/index_prev.jpg) no-repeat;
+	background-position: 0 -51px;
+	cursor: pointer;
+}
+
+
+.brandStory{ 
+	background: #fff;
+	width: 100%;
+	overflow: hidden;
+}
+#brandStory{ 
+	margin: 55px auto 0;
+	width: 1180px;
+}
+#brandStory span{
+	display: block;
+	margin-bottom: 15px;
+	text-align: left;
+}
+#brandStory a{
+	display: block;
+	float: left;
+}
+#brandStory span #brandStory_a1{
+	margin-right: 15px;
+}
+
+#tasteCenter{
+	width: 1180px;
+	margin: 55px auto 0;
+}
+#tasteCenter_list{
+	width: 1180px;
+	background: #fff;
+	border-top: 1px solid #000;
+	padding: 22px 0;
+	text-align: center;
+}
+#tasteCenter_list a{ 
+	font-size: 12px;
+	color: #000;
+	padding: 0 13px;
+}
+#tasteCenter_detail{
+	width: 1180px;
+	background: url(../img/index/index_stroe_bg.jpg) #fdeaea no-repeat left center;
+	height: 442px;
+	position: relative;
+	z-index: 0;
+}
+#city_send{
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 700px;
+}
+#city_form{
+	width: 310px;
+	height: 38px;
+	display: block;
+	left: 85px;
+	top: 270px;
+	position: absolute;
+	background: #fff;
+	z-index: 5;
+}
+#city_input{
+	width: 300px;
+	height: 38px;
+	line-height: 36px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	margin-left: 10px;
+	border: none;
+	color: #b7b7b7;
+	outline: none;
+}
+#city_button{
+	background: #f6827a;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	width: 142px;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	left: 169px;
+	top: 340px;
+	position: absolute;
+	z-index: 5;
+	text-align: center;
+}
+#city{
+	width: 1180px;
+}
+#city_border{
+	width: 252px; 
+	height: 183px;
+	float: right;
+	overflow: hidden;
+	margin: 68px 116px 0 0;
+}
+#city .citybg{
+	display: block;
+}
+#city .citybg .city_title{
+	width: 252px;
+	display: block;
+	text-align: left;
+	height: 95px;
+	overflow: hidden;
+}
+#city .citybg .city_title .city_1{
+	width:250px;
+	font-size: 24px;
+	line-height: 48px;
+	color: #000;
+	height: 48px;
+}
+#city .citybg .city_title i{
+	float:left;
+	display: block;
+	width: 250px;
+	height: 40px; 
+	background: url(../img/index/index_city.jpg) no-repeat center center;
+}
+#city .citybg .city_text{
+	display: block; 
+	width: 250px; 
+	height: 90px;
+}
+#city .citybg .city_text em{
+	display: block;
+}
+#dynamic{
+	width: 1180px;
+	margin: 55px auto 75px;
+	text-align: left;
+	overflow: hidden;
+}
+#dynamic1, #dynamic2{
+	width: 310px;
+	float: left;
+	padding-left: 20px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	height: 322px;
+}
+#dynamic1 dl, #dynamic2 dl{ 
+	padding: 20px 0;
+}
+#dynamic1 dl dt, #dynamic2 dl dt{
+	font-size: 12px;
+	color: #000;
+	padding: 27px 0 19px;
+}
+#dynamic1 dl dd, #dynamic2 dl dd{
+	text-align: left;
+}
+#dynamic1 dl dd a, #dynamic2 dl dd a{
+	color: #333;
+	font-size: 12px;
+	line-height: 28px;
+}
+#dynamic1 span, #dynamic2 span{
+	text-align: left;
+}
+#dynamic1 span a, #dynamic2 span a{
+	color: #333;
+	font-size: 12px;
+}
+#dynamic1 span a:hover, #dynamic2 span a:hover, #dynamic1 dl dd a:hover, #dynamic2 dl dd a:hover{
+	color: #ff8a81;
+}
+#dynamic3{
+	width: 480px;
+	height: 324px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 0;
+	float: right;
+}
+#dynamic3 #dynamicDiv{
+	width: 480px;
+	height: 324px;
+	position: relative;
+	overflow: hidden;
+}
+#dynamic3 #dynamicDiv ul{
+	width: 960px;
+	height: 324px;
+	position: absolute;
+}
+#dynamic3 #dynamicDiv ul li{
+	float: left;
+}
+#dynamic3 #dynamicDiv ul li a{
+	display: block;
+}
+#dynamic3 #dynamicDiv p{
+	width:auto; 
+	height: 14px;
+	position: absolute;
+	left: 220px;
+	bottom: 20px;
+	z-index: 555;
+}
+#dynamic3 #dynamicDiv p span{
+	width: 14px;
+	height: 14px;
+	margin: 0 3px;
+	display: inline-block;
+	cursor: pointer;
+	background: red;
+	float: left;
+}

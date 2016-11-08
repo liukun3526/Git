@@ -1,0 +1,124 @@
+*{margin:0;padding: 0}
+a{text-decoration:none;color:#666;}
+li{list-style:none;}
+i,strong,em,b{font-style:normal}
+body{font:12px "微软雅黑";color:#555;}
+img{border:0;}
+input{border: none;outline: none;}
+
+.enroll_bg{
+	width: 100%;
+	height: 601px;
+    overflow: hidden;
+    background: url(../img/login/login_bg.jpg) no-repeat center top;
+}
+.enroll_border{
+	height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1180px;
+}
+.enroll_left{
+	float: left;
+    height: 601px;
+    overflow: hidden;
+    position: relative;
+    width: 728px;
+}
+.enroll_right{
+	float: left;
+    height: 506px;
+    overflow: hidden;
+    position: relative;
+    width: 403px;
+}
+.enroll_right h3{
+	width: 90px;
+	height: 44px;
+	float: left;
+	margin: 85px 0 0 36px;
+	font-size: 17px;
+	line-height: 44px;
+	color: #000;
+}
+.enroll_right h2{
+	float: right;
+	width: 103px;
+	height: 44px;
+	font-size: 12px;
+	line-height: 44px;
+	margin-top: 85px;
+	color: #666666;
+	text-align: right;
+}
+.enroll_right h2 span{
+	color: #ff8a81;
+	margin-left: 5px;
+}
+.re_box{
+	width: 368px;
+	height: 380px;
+	background: #fcede9;
+	float: right;
+}
+.yours{
+	width: 284px;
+	height: 58px;
+	margin: 46px 0 0 42px;
+}
+.yours_phone,.yours_password{
+	width: 284px;
+	height: 30px;
+	padding: 2px 0 2px 5px;
+}
+.msg_warning{
+	text-align: left;
+	font-size: 12px;
+	line-height: 23px;
+	color: #FF8A81;
+	margin-left: 0;
+}
+.yours1, .yours2, .yours3{
+	width: 284px;
+	height: 58px;
+	margin-left: 42px;
+}
+.yours_yanzheng{
+	float: left;
+	width: 139px;
+	height: 30px;
+	padding: 2px 0 2px 5px ;
+}
+.yours1 a{
+	display: block;
+	width: 133px;
+	height: 34px;
+	float: right;
+	font-size: 12px;
+	line-height: 34px;
+	color: #fff;
+	background: #feaca0;
+	text-align: center;
+}
+.agree{
+	width: 284px;
+	height: 22px;
+	line-height: 22px;
+	margin-left: 42px;
+}
+.agree a{
+	text-decoration: underline;
+}
+.enroll_btn input{
+	width: 284px;
+	height: 33px;
+	margin: 15px 0 0 42px;
+	background: #ff8a81;
+}
+.enroll_btn input:hover{
+	background: #FF9B94;
+}
+.msg_warning{
+	display: none;
+}
