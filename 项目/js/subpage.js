@@ -83,6 +83,7 @@ $(function(){
 						$(this).find(".page_img").find(".page_img_1").stop().animate({opacity : 1},500)
 						$(this).css("background","#fff")
 					});
+					$(".goods_bg").eq(0). find(".page_img_bg").attr("href","readingGlass.html");
 				}
 		});
 		

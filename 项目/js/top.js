@@ -63,12 +63,33 @@ $(function(){
 					for( var s = 0; s < arr.length; s++){
 						$("#nav_left").find(".nav_li").find(".nav1").eq(s).css("left",arr[s].left)     //eq(s)  找到子节点
 					}
+					
 				},function(){
 					$(this).css("background", "#f6827a");
 					$(this).find(".nav1").css("display", "none")
 					})
-				
+				$("#nav_left").find(".nav_li").eq(2).find("a").attr("href","subpage.html");
 			}
+			
+		})
+		
+		/*右侧悬浮*/
+		$("#fixed").find("#fixed_div").hover(function(){
+			$(this).parent().find("#fixed_hide").css("display","block");
+		},function(){
+			$(this).parent().find("#fixed_hide").css("display","none");
+		})
+		/*底部悬浮*/
+		$(window).scroll(function(){
+			if($(window).scrollTop() >= 1000){
+				$("#fixed_bottom").css("display","block")
+			}else{
+				$("#fixed_bottom").css("display","none")
+			}
+		})
+		$("#fixed_bottom").click(function(){
+			$("body,html").animate({scrollTop : 0})
+			return false;
 		})
 })
 

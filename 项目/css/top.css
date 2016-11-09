@@ -505,3 +505,43 @@ img{border:0;}
 	width: 110px;
 	height: 35px;
 }
+
+/*悬浮样式*/
+#fixed{
+	position: fixed;
+	width: 56px;
+	height: 148px;
+    right: 0px;
+    top: 250px;
+}
+#fixed a{
+	display: block;
+	width: 56px;
+	height: 93px;
+	background: url(../img/top/pc_consult.jpg) no-repeat left top;
+	border-bottom: 1px solid #fff;
+}
+#fixed_div{
+	width: 56px;
+	height: 54px;
+	position: relative;
+	cursor: pointer;
+}
+#fixed_hide{
+	position: absolute;
+	right: 56px;
+	top: 0px;
+	display: none;
+}
+#fixed_bottom{
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	background: url(../img/top/totop.jpg) no-repeat right top;
+	width: 40px;
+	height: 40px;
+	display: none;
+}
+#fixed_bottom:hover{
+	background: url(../img/top/totop.jpg) no-repeat left top;
+}
